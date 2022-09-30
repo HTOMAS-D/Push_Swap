@@ -6,7 +6,7 @@
 /*   By: htomas-d <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/06 11:59:49 by htomas-d          #+#    #+#             */
-/*   Updated: 2022/09/22 12:04:29 by htomas-d         ###   ########.fr       */
+/*   Updated: 2022/09/30 10:45:58 by htomas-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void	ft_putex(t_print *tab);
 void	ft_putexup(t_print *tab);
 char	**ft_split(const char *str, char separator);
 void	*ft_memcpy(void *dest, const void *src, size_t len);
-long long	ft_atoi(const char *str);
-int	ft_strcmp(const char *s1, const char *s2);
+int		ft_atoi(const char *str);
+int		ft_strcmp(const char *s1, const char *s2);
 
 #endif

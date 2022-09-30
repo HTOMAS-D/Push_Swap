@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   check.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: htomas-d <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/30 09:48:09 by htomas-d          #+#    #+#             */
+/*   Updated: 2022/09/30 10:41:18 by htomas-d         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../includes/push_swap.h"
 
 static int	check_each(char *arg)
@@ -25,7 +37,6 @@ static int	check_dup(int ac, char **av, int i, int j)
 	return (1);
 }
 
-
 void	check_args(int ac, char **av)
 {
 	int	fst;
@@ -39,7 +50,7 @@ void	check_args(int ac, char **av)
 	{
 		if (!check_each(av[i]) || !check_dup(ac, av, fst, i))
 		{
-			ft_printf("Error\n", 13);
+			write (1, "Error\n", 6);
 			exit(0);
 		}
 		i++;

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: htomas-d <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/30 09:47:08 by htomas-d          #+#    #+#             */
+/*   Updated: 2022/09/30 09:47:34 by htomas-d         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../includes/push_swap.h"
 
 t_stack	*ft_add(int n)
@@ -72,12 +84,6 @@ int	main(int ac, char **av)
 		try_sort(&a, &b, f);
 	if (!is_sorted(&a))
 		sort(ac - 1, &a, &b, f);
-//	while(a)
-//	{
-//		ft_printf("%d\n", a->nbr);
-//		a = a->next;
-//	}
-//	ft_printf("count: %d\n", f->count);
 	free_stack(&a);
 	free(f);
 	return (0);

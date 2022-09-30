@@ -6,11 +6,11 @@
 /*   By: rade-sar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/04 16:09:34 by rade-sar          #+#    #+#             */
-/*   Updated: 2022/09/30 10:48:20 by htomas-d         ###   ########.fr       */
+/*   Updated: 2022/09/30 10:38:41 by htomas-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/push_swap.h"
 
 int	ft_atoi(const char *str)
 {
